@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+  <center>
+       <div id="display">0</div>
+        <table>           
+            <td><input type="button" value="7" ></td>      
+            <td><input type="button" value="8" ></td>
+            <td><input type="button" value="9" ></td>
+            <td><input type="button" value="Del" id="del" data-action="delete" ></td>
+           <td><input type="button" value="AC"   id="clear" data-action="clear" ></td>
+        </tr>
+        <tr><td><input type="button" value="4" ></td>
+            <td><input type="button" value="5"></td>
+            <td><input type="button" value="6" ></td>
+           <td><center><input type="button" value="+" id="operators" data-action="add"></center></td>
+          <td><center><input type="button" value="-" id="operators" data-action="minus"></center></td>
+        </tr>
+        <tr><td><input type="button" value="1" ></td>
+            <td><input type="button" value="2" ></td>
+            <td><input type="button" value="3"></td>
+            <td><center><input type="button" value="*" id="operators" data-action="multiply"></center></td>
+            <td><center><input type="button" value="/" id="operators" data-action="divide"></center></td>
+        </tr>
+        <tr><td><input type="button" value="0" ></td>
+             <td><input type="button" value="." data-action="decimal"></td>
+         
+             <td><input type="button" value="%" id="operators" data-action="mod" size="12" ></td>
+             <td colspan="2"><center><button data-operator="equal " id="equal">=</button></center></td>
+        </tr>       
+    </table></center>
+<script src="calculator.js"></script>
+</body>
+</html>
