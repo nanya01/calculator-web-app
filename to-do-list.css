@@ -1,0 +1,54 @@
+body {margin:0px;}
+.filter {float: right; 
+         margin-right:20px;}
+
+ section {margin:6.2rem;
+   box-shadow: 1.9rem 3.1rem white;}
+
+div#mytodo {background-color: magenta; 
+           width: 300px; 
+           height: 100px;}
+           
+div.todo { display: inline-block;
+            margin-top: 0;
+            background-color: lightgray;
+             width:300px; 
+             height: 300px;  }
+
+li      { margin-top: 15px;
+      border-style:outset ;}
+
+input#title { margin-left:25px;}
+
+#header {text-align: center;
+   text-shadow: 4px  2px 3px gray;
+   font-size: 25px;}
+
+button {float:right;
+       background-color: red;}
+
+input#add {background-color: green;}   
+
+h1{background-color: black;
+ color:#82cbb2 ;
+   text-align: center;}       
+
+@media(min-width:768px){
+ div#mytodo {margin-left:90px;
+   width: 500px; height:150px;}
+
+ div.todo {margin-left:90px;
+   width: 500px; height:250px;}
+
+ input#title { margin:30px 0px 40px 150px}
+}
+
+@media(min-width: 992px){
+ div#mytodo {margin-left:280px;
+   width: 500px; height:150px;}
+
+ div.todo {margin-left:280px;
+   width: 500px; height:300px;}
+
+ input#title { margin:30px 0px 40px 150px}
+}
